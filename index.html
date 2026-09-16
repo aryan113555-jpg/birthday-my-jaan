@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Jaan ❤️</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #080012;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .card {
+            width: 90%;
+            max-width: 500px;
+            padding: 40px 25px;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 0 40px rgba(255, 0, 100, 0.2);
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .name {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #ddd;
+        }
+
+        .heart {
+            font-size: 55px;
+            margin-bottom: 20px;
+            animation: heartbeat 1.2s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 30px;
+            background: #ff3b81;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="heart">❤️</div>
+
+        <h1>Happy Birthday</h1>
+
+        <div class="name">
+            My Beautiful Amu 🎂💕
+        </div>
+
+        <p class="message">
+            Happy Birthday, Meri Jaan ❤️
+            <br><br>
+            You are one of the most beautiful parts of my life.
+            May your smile always stay this beautiful,
+            and may every dream of yours come true. ✨
+        </p>
+
+        <button class="btn" onclick="showMessage()">
+            Click for a Surprise 💌
+        </button>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("I Love You So Much, Amu ❤️🎂✨");
+        }
+    </script>
+
+</body>
+</html>
